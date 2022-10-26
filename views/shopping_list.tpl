@@ -12,7 +12,11 @@
   </tr>
 % end
 </table>
-</hr>
-<a href="/add">New Item...</a>
+<hr/>
+<form action="/add" method="post">
+  <p>Add new Item: <input name="description"/></p>
+  <p><button type="submit">Submit</button>
+</form>
+<hr/>
 </body>
 </html>
